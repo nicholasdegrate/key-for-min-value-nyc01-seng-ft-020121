@@ -3,6 +3,6 @@
 
 def key_for_min_value(name_hash)
   puts name_hash.min_by { |a|
-    a.key
+   return a.key
   }
 end
